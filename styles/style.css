@@ -64,6 +64,15 @@ nav li a{
     max-width: 100%;
     justify-content: center;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+   }
+
 .hero h1{
     font-size: 50px;
     margin-bottom: 20px;
@@ -82,13 +91,13 @@ nav li a{
 }
 
 .action-section{
-   
+  margin: 40px; 
 display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 60px 40px;
 background-color: #ffffff;
-flex-wrap: wrap;
+
 }
 .action-left{
    flex: 1;
@@ -127,10 +136,14 @@ flex-wrap: wrap;
 }
 
 .productive-user{
-   background-color: #f5f7ff;
-   text-align: center;
-   padding: 60px 20px;
-
+    height: 303px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #b9c0da;
+    text-align: center;
+    padding: 60px 20px;
+   
 }
 
 .productive-user h2{
@@ -145,8 +158,10 @@ flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+     margin-bottom: 50px;
 }
 .start-box{
+    padding: 80px;
     gap: 50px;
 }
 
@@ -158,10 +173,71 @@ margin-bottom: 10px;
 .start-box p{
     font-size: 16px;
     color: #555;
+  
 }
-.pro{
-    max-width: 1140px;
-    padding: 50px;
+
+.contact-section{
+     height: 303px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 20px;
+    background-color: white;
+}
+.contact-left{
+    flex:1;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-left h2{
+    font-size: 32px;
+    color: #222;
+}
+.contact-right{
+    flex: 1;
+    min-width: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+form input,form textarea
+{    padding: 12px; 
+    border 1px solid #ccc; 
+    border-radius:  8px;
+    font-size: 16px;
+     width: 100%;
+}
+
+form textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+form button{
+    margin-top: 20px;
+    background-color: #3f3fff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+form button:hover{
+    background-color: white;
+    color: #222;
 }
 
 
