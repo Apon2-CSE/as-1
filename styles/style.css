@@ -276,3 +276,45 @@ form button:hover{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+.focus{
+    align-items: center;
+}
+.focus img{
+    width: 996px;
+    height: 696px;
+    border-radius: 29px;
+
+}
+
+footer{
+   padding: 60px 20px;
+   text-align: center;
+   background-color: #fff;
+   border-top: 1px solid #eee;
+}
+.lg{
+    font-size: 400px;
+    font-weight: 800;
+    color: #4F46E5;
+    margin-bottom: 20px;
+}
+.subtile{
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+.footer-nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #777;
+    transition: color 0.3s ease;
+    
+}
+.footer-nav a:hover{
+    color: #4F46E5;
+}
+
+
