@@ -5,12 +5,20 @@ body{
 }
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+  font-family:  "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+
+/*.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
 
 nav ul{
    display: flex;
@@ -19,16 +27,15 @@ nav ul{
    padding: 20px;
 }
 .logo{
-    font-size: 22px;
     margin: 50px;
     font-weight: bold;
     font-size: 35px;
-    color:#3f3fff;
+    color: #4E47FF;
 }
 .signup-btn{
     font-size: 20px;
     margin: 30px;
-    background-color: #3f3fff;
+    background-color: #4E47FF;
     color: white;
     border-radius: 6px;
     padding: 10px 20px;
@@ -46,20 +53,18 @@ nav li a{
     text-decoration: none;
     justify-content: space-between;
 }
-.head{
-    background-image: url('');
-}
+
+
 .hero{
     text-align: center;
     padding: 60px 20px;
 
 }
 .hero h1{
-    font-size: 36px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 30px;
-
-    margin-bottom: 20px;
+   
 }
 .head{
     background-image: url('../images/Hero-bg.png');
@@ -83,7 +88,7 @@ main section{
     margin-bottom: 20px;
 }
 .cta{
-    background: #3f3fff;
+    background: #4E47FF;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -120,7 +125,7 @@ background-color: #ffffff;
     margin-bottom: 20px;
 }
 .preview-button{
-    background-color: #3f3fff;
+    background-color:#4E47FF;
     color:#fff;
     padding: 10px 20px;
     border: none;
@@ -137,7 +142,7 @@ background-color: #ffffff;
     max-width: 100%;
     height: auto;
     border-radius: 35px;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .productive-user{
@@ -172,7 +177,7 @@ background-color: #ffffff;
 
 .start-box h3{
 font-size: 50px;
-color: #3f3fff;
+color: #4E47FF;
 margin-bottom: 10px;
 }
 .start-box p{
@@ -201,7 +206,7 @@ margin-bottom: 10px;
     justify-content: center;
 }
 .contact-left h2{
-    font-size: 32px;
+    font-size: 70px;
     color: #222;
 }
 .contact-right{
@@ -232,7 +237,7 @@ form textarea{
 form button{
     margin-top: 20px;
     margin-bottom: 30px;
-    background-color: #3f3fff;
+    background-color: #4E47FF;
     color: white;
     padding: 12px;
     border: none;
@@ -311,7 +316,7 @@ form button:hover{
 .f3{
     margin-top: 20px;
     text-align: center;
-     background: #3f3fff;
+     background:#4E47FF;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -323,13 +328,16 @@ form button:hover{
     color: #222;
 }
 .f4{
-    border-radius: 10px;
+    border-radius: 35px;
     align-items: center;
     margin: 180px;
     margin-top: 20px;
     max-width: 75%;
     max-height: 75%;
-   
+}
+.f4 img{
+    border-radius: 30px;
+    
 }
 
 /*.focus img{
@@ -349,7 +357,7 @@ footer{
 .lg{
     font-size: 100px;
     font-weight: 800;
-    color: #4F46E5;
+    color: #4E47FF;
     margin-bottom: 20px;
 }
 .subtile{
@@ -367,7 +375,7 @@ footer{
     
 }
 .footer-nav a:hover{
-    color: #4F46E5;
+    color: #4E47FF;
 }
 
 
